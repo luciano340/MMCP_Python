@@ -2,7 +2,7 @@ from threading import Barrier, Thread, Lock
 import time
 from random import choice, randint
 
-matrix_size = 600
+matrix_size = 200
 stop_threads = False
 barrier_start = Barrier(matrix_size + 1)
 barrier_done = Barrier(matrix_size + 1)
